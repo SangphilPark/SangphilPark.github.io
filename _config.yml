@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 상필의 개발 로그 # the main title
+title: 박상필 소개 # the main title
 
 tagline: AI / Data / Back-End # it will display as the sub-title
 
