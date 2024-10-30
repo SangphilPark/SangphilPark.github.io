@@ -36,8 +36,27 @@ pip install torch faiss-cpu
 pip install pandas numpy scikit-learn tqdm
 pip install gensim
 pip install konlpy
+pip install transformers
 
 ```
+
+#### (서빙 패키지 설치)
+```shell
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118
+
+pip install fastapi
+pip install uvicorn
+```
+
+#### (크롤링 패키지 설치)
+```shell
+pip install pdfplumber
+pip install bs4
+pip install --upgrade torchvision
+pip install selenium browsermob-proxy requests beautifulsoup4 pdfminer.six transformers
+
+```
+
 
 # 형태소 분석기
 [gpters, 참고 링크](https://www.gpters.org/dev/post/rag-creation-strategy-6SW9xPXYOpEcsJv)
@@ -59,3 +78,5 @@ from konlpy import jvm
 jvm.init_jvm()
 
 ```
+
+
