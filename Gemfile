@@ -9,7 +9,9 @@ group :test do
 end
 
 group :jekyll_plugins do
+  gem 'jekyll-admin'
   gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
   gem 'tzinfo'
   # Add any other Jekyll plugins you use here
 end
