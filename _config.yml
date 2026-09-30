@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: 박상필 # the main title
 
-tagline: AI Engineer · 데이터와 서비스 설계
+tagline: DX · AI · 업무 시스템 설계
 
 description: >- # used by seo meta and the atom feed
-  박상필의 AI 개발 포트폴리오. RAG 서비스, 강화학습 평가, 현업 데이터 구조를 설계하고 구현한 경험을 기록합니다.
+  박상필의 개발 포트폴리오. AI Ready 기반, 전사 업무 시스템, 데이터의 의미와 변경 이력을 설계하고 구현한 경험을 기록합니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
