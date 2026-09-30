@@ -1,4 +1,5 @@
 name: "Build and Deploy"
+# A single Pages workflow avoids competing deployments for the same commit.
 on:
   push:
     branches:

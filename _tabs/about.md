@@ -1,272 +1,46 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
-layout: default
+title: 소개
+icon: fas fa-user
+order: 1
+layout: page
 ---
 
-<br>
+## 박상필 · AI Engineer
 
----
+**문제를 정의하고, AI를 구현하고, 그 결과를 판단할 조건까지 설계합니다.**
 
-# ✨[경험 정리 포트폴리오 링크](https://drive.google.com/file/d/1Kdr9NtZQsK8bcOs_UXwaUCU-vgJkYnnq/view?usp=drive_link)
+현재 제조업에서 AI 개발과 업무 시스템화를 맡고 있습니다. 논문 RAG 서비스를 구현한 경험을 바탕으로 최근에는 강화학습의 비교 평가와 현업 데이터의 구조를 다루고 있습니다.
 
-<!-- ![image](https://github.com/SangphilPark/SangphilPark.github.io/assets/81211140/8a6d4f8d-36f8-486d-a0ec-a70d5bf4fe9e)
+제가 중요하게 보는 것은 모델의 결과가 다음 업무로 이어지는 과정입니다. 어떤 정보를 보존할지, 실패를 무엇으로 정의할지, 자동화한 결과를 사람이 어디에서 확인할지를 개발 범위에 포함합니다. 문제 정의·설계·구현·검증 과정에서 AI 도구도 활용하며 판단과 결과 확인을 맡습니다.
 
-![image](https://github.com/SangphilPark/SangphilPark.github.io/assets/81211140/7718db01-04cc-461b-a4d7-77e08cf6075f)
+[대표 프로젝트 보기](/projects/) · [GitHub](https://github.com/SangphilPark) · [LinkedIn](https://www.linkedin.com/in/sangphil-park-51742b288/)
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-> {: .prompt-tip } -->
+## 최근에 다룬 문제
+
+- **RF 강화학습의 비교 평가:** 제어 방식마다 행동 예산을 맞추고, 환경 제약으로 도달할 수 없는 경우와 정책의 실패를 구분했습니다. 학습·검증·평가 시나리오를 나누고 제어 품질과 실행 비용을 함께 기록했습니다.
+- **업무 데이터의 변경 수용:** Excel의 열 이름·순서가 바뀌어도 업무 정보의 의미를 유지하도록 파일별 매핑과 공통 변환 로직을 분리했습니다. 추가 정보 보존과 운영자 확인을 처리 과정에 포함했습니다.
+- **문서 기반 AI 서비스:** PaperDot에서 논문 요약과 RAG 질의응답의 AI·데이터 개발을 맡았습니다. 문서·검색 인덱스 재사용과 요약 조회·재생성의 처리 경로를 구현했습니다.
+
+## 경력과 학습
+
+| 기간 | 경험 |
+|---|---|
+| 2025.08 — 현재 | 제조업 AI 개발 · 업무 시스템화 · 온프레미스 AI 도입 조건 검토 |
+| 2025.07 — 2025.08 | NHN Java Backend 과정 |
+| 2024.01 — 2024.12 | 삼성 청년 SW 아카데미(SSAFY) 11기 |
+| 2023.09 — 2023.11 | Google Machine Learning Bootcamp |
+| 2023.03 — 2023.08 | 네이버 부스트캠프 AI Tech 5기 |
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertical Line Example</title>
-    <style>
-        body {
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        .container {
-            width: 100%;
-            margin: 20px auto;
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .skills {
-            width: 100%;
-            margin-bottom: 1rem;
-            background-color: #f8f9fa;
-            border-bottom: 1px solid #dee2e6;
-            text-align: center;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .skills li {
-            margin: 10px;
-            padding: 10px 17px;
-            background-color: #495057;
-            color: #fff;
-            border-radius: 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-            font-size: 11px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            position: relative;
-            background-image: linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.1) 75%, transparent 75%, transparent);
-            background-size: 30px 30px;
-            animation: shine 2s infinite linear;
-        }
-        .skills li:hover {
-            background-color: #343a40;
-        }
-        .skills li:nth-child(2n) {
-            background-color: #fc84ce;
-        }
-        .skills li:nth-child(3n) {
-            background-color: #663cfd;
-        }
-        .skills li:nth-child(4n) {
-            background-color: #4e5ee9;
-        }
-        .skills li:nth-child(5n) {
-            background-color: #2fdfdf;
-        }
-        .skills li:nth-child(6n) {
-            background-color: #b9e05d;
-        }
-        .skills li:nth-child(8n) {
-            background-color: #c53737;
-        }
-        @keyframes shine {
-            to {
-                background-position: 30px 0;
-            }
-        }
-        .timeline {
-            width: 100%;
-            margin-bottom: 1rem;
-            padding: 2rem;
-            background-color: #f8f9fa;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            position: relative;
-            overflow: hidden;
-        }
-        .event {
-            position: relative;
-            display: flex;
-            align-items: center;
-            margin-bottom: 50px;
-        }
-        .event:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 20px;
-            height: 20px;
-            background-color: #007bff;
-            border-radius: 50%;
-            border: 2px solid #fff;
-            transform: translate(-50%, -50%);
-        }
-        .event-content {
-            margin-left: 30px;
-            font-size: 14px;
-        }
-        .timeline-line {
-            position: absolute;
-            left: 10px;
-            width: 2px;
-            background-color: #007bff;
-            z-index: -1;
-            height: calc(100% + 20px); /* +20px for the space above and below events */
-        }
-        .timeline-container {
-            position: relative;
-            width: 100%;
-        }
-        .section {
-            width: 100%;
-            margin-bottom: 1rem;
-            padding: 1rem;
-        }
-        .section h2 {
-            color: #007bff;
-            margin-bottom: 20px;
-        }
-        .section p {
-            margin-bottom: 10px;
-        }
-        .section ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section li {
-            margin-bottom: 5px;
-        }
-        .awards {
-            width: 90%;
-            padding: 1rem;
-        }
-        .awards h2 {
-            color: #007bff;
-            margin-bottom: 20px;
-        }
-        .goals {
-            width: 95%;
-            padding: 20px;
-        }
-        .goals h2 {
-            color: #007bff;
-            margin-bottom: 20px;
-        }
-        .container-body {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin-bottom: 30px;
-            position: relative;
-            overflow: hidden;
-        }
-        .container-right {
-            margin-left: 2rem;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            margin-bottom: 30px;
-            position: relative;
-            overflow: hidden;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>SpringBoot</li>
-                <li>Java</li>
-                <li>백엔드</li>
-                <li>PyThon</li>
-                <li>컴퓨터비전</li>
-                <li>자연어처리</li>
-                <li>NoSQL</li>
-                <li>VectorDB</li>
-            </ul>
-        </div>
-        <div class="container-body">
-            <div class="timeline-container">
-                <div class="timeline">
-                    <h2>경험 타임라인</h2>
-                    <div class="timeline-line"></div>
-                    <div class="event">
-                        <div class="event-content">
-                            <h3>삼성 청년 SW 아카데미</h3>
-                            <p>자바 기반 웹 프레임워크</p>
-                            <p>Date: 24.06</p>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="event-content">
-                            <h3>Google ML BootCamp</h3>
-                            <p>Tensorflow 기반 모델링</p>
-                            <p>Date: 23.12</p>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="event-content">
-                            <h3>네이버부스트캠프</h3>
-                            <p>Computer Vision 엔지니어링</p>
-                            <p>Date: 23.08</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-right">
-                <div class="section awards">
-                    <h2>Awards</h2>
-                    <ul>
-                        <li>Kaggle 텐서플로우 머신러닝 대회 Top 3%</li>
-                        <li>홍익대바이오헬스 사랑니 발치 시간 예측 대회 수상</li>
-                        <li>(머신러닝, 딥러닝 가능해요)</li>
-                    </ul>
-                </div>
-                <div class="section goals">
-                    <h2>Goals</h2>
-                    <p># 더 나은 개발 방법을 고민하고 나눠요</p>
-                    <p># 팀플하면서 의견을 교류하는 법을 배우고 싶습니다!</p>
-                    <p># 부족한 부분을 찾아서 완성도를 높여요</p>
-                    <p># AI + IoT AIoT 프로젝트를 경험하고 싶습니다!</p>
-                    <p># 웹 서비스 배포!</p>
-                    <br>
-                    <hr>
-                    <!-- <p># 같이 하실 분 연락 주세요!!!</p>
-                    <p>!!! 이왕 하는 거 즐기며 하자는 마인드로 열심히 참여하겠습니다 !!!</p> -->
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+## 수상과 자격
+
+- **바이오헬스 데이터 AI 경진대회 · 치의학 분야 장려상** — 2023.12. 치아 영상과 환자 정보를 이용한 사랑니 발치 시간 예측 모델 개발에 참여했습니다.
+- **SSAFY 프로젝트 우수상** — 2024.10, 2024.11.
+- **정보처리기사** — 2025.09 취득.
+- **SQLD** — 2022.06 취득, 보수교육 이수로 영구 자격.
+
+## 사용하는 기술
+
+기술은 적용한 문제와 함께 설명합니다. Python·FastAPI·LangChain·FAISS는 문서 처리와 RAG 서비스에, Gymnasium·Stable-Baselines3·MLflow는 강화학습 환경과 실험 기록에 사용했습니다. Java·Spring Boot, SQL, Git·Docker를 학습하고 팀 프로젝트에 적용했습니다.
+
+연락: [pagerank990@gmail.com](mailto:pagerank990@gmail.com)

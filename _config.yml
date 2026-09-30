@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
@@ -14,27 +14,24 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 박상필 소개 # the main title
+title: 박상필 # the main title
 
-tagline: AI / Data / Back-End # it will display as the sub-title
+tagline: AI Engineer · 데이터와 서비스 설계
 
 description: >- # used by seo meta and the atom feed
-  "I am interested in AI, data, and web development."
+  박상필의 AI 개발 포트폴리오. RAG 서비스, 강화학습 평가, 현업 데이터 구조를 설계하고 구현한 경험을 기록합니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://SangphilPark.github.io"
+url: "https://sangphilpark.github.io"
 
 github:
   username: SangphilPark # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: 링크드인
+  name: 박상필
   email: pagerank990@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link

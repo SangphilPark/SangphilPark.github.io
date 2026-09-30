@@ -1,0 +1,107 @@
+/* Scoped additions to Chirpy: portfolio introduction and project cards. */
+.sp-portfolio {
+  --sp-accent: #185e56;
+  --sp-soft: #edf4f1;
+  --sp-ink: #1f302e;
+  --sp-muted: #576762;
+  --sp-line: #cddcd5;
+  margin: 1.3rem 0 3.5rem;
+  line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+[data-mode="dark"] .sp-portfolio,
+[data-bs-theme="dark"] .sp-portfolio {
+  --sp-accent: #a2d5c5;
+  --sp-soft: #1c2a28;
+  --sp-ink: #e2ece6;
+  --sp-muted: #b1c0b8;
+  --sp-line: #3b5149;
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]):not([data-bs-theme="light"]) .sp-portfolio {
+    --sp-accent: #a2d5c5;
+    --sp-soft: #1c2a28;
+    --sp-ink: #e2ece6;
+    --sp-muted: #b1c0b8;
+    --sp-line: #3b5149;
+  }
+}
+.sp-hero {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--sp-soft);
+  color: var(--sp-ink);
+  border: 1px solid var(--sp-line);
+  border-radius: 14px;
+}
+.sp-eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1.1rem;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: var(--sp-accent);
+  margin: 0 0 1.35rem;
+}
+.sp-eyebrow span { font-weight: 400; }
+.sp-hero h1 {
+  font-size: clamp(1.65rem, 2.8vw, 2.55rem);
+  line-height: 1.4;
+  font-weight: 750;
+  letter-spacing: -.055em;
+  color: var(--sp-ink);
+  margin: 0 0 1.25rem;
+}
+.sp-lead { font-size: .97rem; color: var(--sp-muted); max-width: 37rem; margin-bottom: 1.6rem; }
+.sp-actions { display: flex; flex-wrap: wrap; gap: .85rem 1.5rem; align-items: center; }
+.sp-portfolio a.sp-button {
+  display: inline-flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: .65rem 1.1rem;
+  border: 1px solid var(--sp-accent);
+  border-radius: 6px;
+  color: var(--sp-soft);
+  background: var(--sp-accent);
+  font-size: .88rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+.sp-portfolio a.sp-text-link { color: var(--sp-accent); border-bottom: 1px solid var(--sp-line); font-size: .88rem; }
+.sp-focus { display: flex; flex-wrap: wrap; gap: .4rem 1.1rem; padding: 1.3rem 0 0; margin: 1.5rem 0 0; list-style: none; border-top: 1px solid var(--sp-line); color: var(--sp-muted); font-size: .76rem; }
+.sp-work-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; align-items: baseline; margin: 2.2rem 0 1rem; }
+.sp-work-heading h2 { margin: 0; font-size: 1.15rem; font-weight: 650; }
+.sp-work-heading > span { color: var(--sp-muted); font-size: .76rem; }
+.sp-project-grid { display: grid; grid-template-columns: 1fr; gap: .8rem; }
+.sp-portfolio a.sp-project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem;
+  border: 1px solid var(--sp-line);
+  border-radius: 9px;
+  background: var(--main-bg);
+  color: var(--sp-ink);
+  text-decoration: none;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.sp-portfolio a.sp-project-card:hover { border-color: var(--sp-accent); background: var(--sp-soft); }
+.sp-portfolio a:focus-visible { outline: 3px solid var(--sp-accent); outline-offset: 4px; }
+.sp-card-meta { display: flex; justify-content: space-between; gap: 1rem; font-size: .65rem; color: var(--sp-accent); letter-spacing: .07em; }
+.sp-project-card h3 { margin: 1rem 0 .7rem; font-size: 1.06rem; line-height: 1.65; letter-spacing: -.035em; color: var(--sp-ink); }
+.sp-project-card p { font-size: .86rem; color: var(--sp-muted); margin: 0 0 1rem; }
+.sp-card-bottom { display: flex; justify-content: space-between; align-items: center; gap: .5rem; margin-top: auto; padding-top: .85rem; border-top: 1px solid var(--sp-line); font-size: .7rem; color: var(--sp-accent); }
+.sp-card-bottom > span:last-child { font-size: 1.1rem; }
+.sp-section-heading { margin: 0 0 1.4rem; font-size: 1.2rem; }
+.sp-section-heading span { display: inline-block; font-size: .8rem; font-weight: 400; color: var(--text-muted-color); margin-left: .5rem; }
+@media (min-width: 768px) {
+  .sp-project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sp-project-card h3 { font-size: .99rem; }
+  .sp-portfolio a.sp-project-card { padding: 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sp-portfolio a.sp-project-card { transition: none; }
+}
+@media print {
+  .sp-portfolio { break-inside: avoid; }
+}
