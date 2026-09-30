@@ -7,7 +7,7 @@ description: "논문별 PDF와 검색 인덱스의 재사용, 요약 조회와 �
 portfolio: true
 ---
 
-**2024 · 팀 프로젝트 · AI·데이터 개발 담당**  
+**2024 · 팀 프로젝트 · AI·데이터 개발 담당**<br>
 Python · FastAPI · LangChain · FAISS
 
 PaperDot은 논문을 요약하고 논문에 관해 질문할 수 있는 서비스입니다. 저는 팀에서 AI·데이터 개발을 맡아 PDF 처리, 검색 기반 질의응답, 요약 생성 기능을 구현했습니다.

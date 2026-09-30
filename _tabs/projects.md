@@ -1,5 +1,5 @@
 ---
-title: 프로젝트
+title: Projects
 icon: fas fa-laptop-code
 order: 2
 layout: page

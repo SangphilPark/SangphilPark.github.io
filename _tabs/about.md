@@ -1,5 +1,5 @@
 ---
-title: 소개
+title: About
 icon: fas fa-user
 order: 1
 layout: page
